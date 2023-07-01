@@ -9,6 +9,7 @@ class User:
         self.phone=phone
         self.email=email  
         self.fines=0
+        self.data=3
     
     #behavior
     def rent_book(self, books, name):
